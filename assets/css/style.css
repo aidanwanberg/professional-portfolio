@@ -1,0 +1,122 @@
+:root {
+    --primary-color: #64e4ef;
+    --secondary-color: #eaeaea;
+    --tertiarty-color: #25282d;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.flex-row {
+    display: flex;
+}
+
+body {
+    color: var(--secondary-color);
+    background-color: var(--tertiarty-color);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    padding: 20px 35px;
+    background-color: var(--tertiarty-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    top: 0;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+header nav {
+    margin: 15px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 38px;
+    color: var(--primary-color);
+    margin: 0;
+}
+
+/* Hero Style Start */
+.hero {
+    background-image: url(../images/hero-bg.jpg);
+    background-size: cover;
+    background-position: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.hero-subtitle {
+    border: solid 3px var(--tertiarty-color);
+    background-color: var(--primary-color);
+    padding: 12px;
+    color: var(--primary-color);
+    width: 25%;
+    margin: 6%;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.hero-subtitle h2 {
+    font-size: 26px;
+    margin: 0;
+    color: var(--tertiarty-color);
+}
+
+/* Section Titles Style Start */
+
+.section-title {
+    font-size: 36px;
+    color: var(--primary-color);
+    border-right: 5px solid;
+    text-align: center;
+    margin: 15px auto 40px 15px;
+    width: 15%;
+}
+
+.intro p {
+    line-height: 1.7;
+    color: var(--secondary-color);
+    width: 60%;
+    font-size: 18px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.work {
+
+}
+
+.work-info {
+
+}
+
+.work-img {
+    max-width: 50%;
+    height: auto;
+}
